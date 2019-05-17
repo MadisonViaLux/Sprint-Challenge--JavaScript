@@ -30,13 +30,42 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach doesn't return anything like .map does.
+
 2. What is the difference between a function and a method?
+
+A function is a block of code made to run a procedure to return a certain output. A Method is a function that oporates inside or via an Object.
 
 3. What is closure?
 
+Closure is when a function that's deep inside it's scope is able to access an outer function and use it's variables.
+
 4. Describe the four rules of the 'this' keyword.
 
+* 1. Global Scope means the "this" will 
+read past our code into the browser 
+itself to find the item it is trying to 
+define.
+
+* 2. Implicit Binding is like Global 
+Scope, but when you are calling for it, 
+you use the object you want to call, 
+and then a dot, then the function (or 
+Method as it is also called) that is 
+INDIDE the object you are calling, then 
+a proporty you want for that function, 
+and then whatever is left of the dot is 
+what the "this" is bound too.
+
+* 3. BINDING takes the 'this' from a 
+function and allows it to be bound to an 
+object.
+
+* 4. Explicit Bonding alows you to bond in detail.
+
 5. Why do we need super() in an extended class?
+
+Because it summarizes the `.call` function and implies `this` method making it simplier to write.
 
 ## Project Set up
 
